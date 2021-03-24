@@ -32,6 +32,11 @@
         background: #fff;  
         border: 1px solid #f9f9f9;  
         border-radius: 5px;  
+        user-select: none; /* supported by Chrome and Opera */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
         }  
             .capslock, .tab, .left-shift, .clearl, .switch {  
             clear: left;  
@@ -63,7 +68,7 @@
             }  
             #keyboard .space {  
             float: left;
-            width: 556px;  
+            width: 556px;              
             }  
             #keyboard .switch, #keyboard .space, #keyboard .return{
             font-size: 16px;
@@ -93,4 +98,8 @@
                 /* border-color: black;   */
                 background-color: darkred;
                 color: lightyellow;
+            }
+
+            #code-output {
+                font-size: 2.2rem;
             }
