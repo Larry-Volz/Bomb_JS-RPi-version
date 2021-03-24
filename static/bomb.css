@@ -11,6 +11,11 @@
     margin: 100px auto;  
     width: 760px;  
     }    */
+    
+    .toggle_msg {
+        font-size: 1.5rem;
+    }
+    
     #keyboard {  
     margin: 0;  
     padding: 0;  
@@ -19,8 +24,8 @@
         #keyboard li {  
         float: left;  
         margin: 0 5px 5px 0;  
-        width: 106px;  
-        height: 60px;  
+        width: 160px;  
+        height: 80px;  
         font-size: 24px;
         line-height: 60px;  
         text-align: center;  
